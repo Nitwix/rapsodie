@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	var texts = $(".styled_text");
 	texts.each(function(index, el) {
-		console.log(el);
+		el.innerHTML = colorStr(el.innerHTML,10);
 	});
 
 });
@@ -23,7 +23,15 @@ $(document).ready(function(){
 
 function colorStr(str, prob){
 	var nStr = "";
+	var finished = false;
 	for(var i in str){
+
+		//prevent html elements from being messed up
+		if(str[i] == "<" || finished){
+			finished = true;
+			continue;
+		}
+
 		if(randInt(0,prob) == 0){ //randomly set the color
 			//choose between the two colors
 			if(randInt(0,2) == 0){
