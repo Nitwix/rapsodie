@@ -14,7 +14,7 @@
 		<script src='scripts/utils.js' type='text/javascript'></script>
 
 		<!-- Cool link active effect -->
-		<script src='scripts/link_active_effect.js' type='text/javascript'></script>
+		<script src='scripts/random_letter_color.js' type='text/javascript'></script>
 		
 		";
 
