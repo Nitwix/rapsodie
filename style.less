@@ -1,13 +1,13 @@
 //colors declarations, from lightest to darkest
-@color-1: #2196F3;
-@color-2: #1E88E5;
-@color-3: #1976D2;
-@color-4: #1565C0;
+@color-1: #4964b4; //used for the navbar border and the active navbar bg
+@color-2: #5b8595;
+@color-3: #4c6f7c;
+@color-4: #3552AC; //used for the navbar background
 
-@t-color: #E3F2FD; //text-color
-@al-color: #000; //active link color
-@bt-color: #0D47A1; //body text color
-@b-color: #90CAF9; //background color
+@t-color: #231F20; //text-color
+@al-color: #231F20; //active link color
+@bt-color: #231F20; //body text color
+@b-color: #99DFF9; //background color
 
 @collapse-width: 1200px; //width at which the navbar collapse
 
@@ -22,7 +22,7 @@ body{
 /*NAVBAR STYLING*/
 //general style
 .navbar-default {
-	border-color: @color-1;
+	border-color: @b-color;
 	background-color: @color-4;
 
 	margin-bottom: 0;
@@ -37,7 +37,7 @@ body{
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: @b-color;
+	background-color: @color-1;
 }
 
 .navbar-default .navbar-toggle .icon-bar {

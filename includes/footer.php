@@ -9,8 +9,15 @@
 		
 		<!-- Include less precompiler -->
 		<script src='libs/less.min.js' type='text/javascript'></script>
-		
+
 		<!-- My utility functions -->
-		<script src='scripts/utils.js' type='text/javascript'></script>";
+		<script src='scripts/utils.js' type='text/javascript'></script>
+
+		<!-- Cool link active effect -->
+		<script src='scripts/link_active_effect.js' type='text/javascript'></script>
+		
+		";
+
+
 	echo $footer;
 ?>
