@@ -7,8 +7,7 @@
 		<div class="row">
 			<div class="col-sm-2"></div> <!-- so it's aligned in the middle -->
 			<div class="col-sm-8">
-				<h1><span class="styled_text">LES CHAISES </span><small>Steve Muriset</small></h1>
-
+				<h1><span class="styled_text">LES CHAISES </span><small>Steve&nbsp;Muriset</small></h1>
 			</div>
 			<div class="col-sm-2"></div>
 		</div>
@@ -32,7 +31,6 @@
 						<br>
 
 						<h3 class="styled_text">Couvet</h3>
-						<br>
 						<h4 class="styled_text">18 et 19 novembre 2017, Chapelle aux Concerts, pas de réservation</h4>
 
 						<br>

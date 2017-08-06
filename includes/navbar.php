@@ -15,15 +15,17 @@ $navbar = "<nav class='navbar navbar-default navbar-static-top'>
 
 $page_name = basename($_SERVER['PHP_SELF']); //name of the php file the user is on
 $page_active = ['index.php' => '',
-			    'contact.php' => '',
-			    'agenda.php' => '',
-			    'photos.php' => ''];
+			    'qqpistes.php' => '',
+			    'opera.php' => '',
+			    'biographies.php' => '',
+			    'cie_rapsodie.php' => ''];
 $page_active[$page_name] = 'active';
 
 $navbar .= "<li class=".$page_active['index.php']."><a href='index.php' id='Accueil'>Accueil</a></li>
-			<li class=".$page_active['contact.php']."><a href='contact.php' id='Placeholder1'>Placeholder1</a></li>
-			<li class=".$page_active['agenda.php']."><a href='agenda.php' id='Placeholder2'>Placeholder2</a></li>
-			<li class=".$page_active['photos.php']."><a href='photos.php' id='Placeholder3'>Placeholder3</a></li>
+			<li class=".$page_active['qqpistes.php']."><a href='qqpistes.php' id='LES CHAISES : Quelques pistes'>LES CHAISES : Quelques pistes</a></li>
+			<li class=".$page_active['opera.php']."><a href='opera.php' id='LES CHAISES : Un opéra'>LES CHAISES : Un opéra</a></li>
+			<li class=".$page_active['biographies.php']."><a href='biographies.php' id='Biographies'>Biographies</a></li>
+			<li class=".$page_active['cie_rapsodie.php']."><a href='cie_rapsodie.php' id='Cie Rapsodie'>Cie Rapsodie</a></li>
 			</ul>";
 
 
