@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	var texts = $(".styled_text");
 	texts.each(function(index, el) {
-		el.innerHTML = colorStr(el.innerHTML,10);
+		el.innerHTML = colorStr(el.innerHTML,25);
 	});
 
 });
