@@ -43,13 +43,14 @@
                     <blockquote><h4>« Le thème de la pièce n’est pas le message, ni les échecs dans la vie, ni le désastre moral des vieux, mais bien les chaises, c’est-à-dire l’absence de personnes, l’absence de l’Empereur, l’absence de Dieu, l’absence de matière, l’irréalité du monde, le vide métaphysique. Le thème de la pièce c’est l’évanescence, le rien, un rien qui se fait entendre, se concrétise, comble de l’invraisemblance ».</h4></blockquote>
                     <br>
                 </div>
-                <div class="col-lg-1 col-xs-6"></div>
+                <div class="col-xs-6 col-lg-1"></div>  
                 <div class="col-xs-6 col-lg-2">
                     <figure>
-                        <img src="images/ionesco.png" class="img-responsive">
+                        <img src="images/ionesco.png" class="img-responsive center-block">
                         <figcaption  class="text-center" style="margin:10px;"><i>Eugène Ionesco</i></figcaption>
                     </figure>
                 </div>
+                <div class="col-xs-6 col-md-0 col-lg-1"></div>
             </div>
         </div>
         <?php include "includes/footer.php" ?>
