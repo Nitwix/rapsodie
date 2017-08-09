@@ -1,58 +1,521 @@
 <!DOCTYPE html>
 <html>
-    <?php include "includes/head.php" ?>
-    <body onclick="collapseNavbar()">
-        <?php include "includes/navbar.php";?>
-        <div class="container" > <!-- collapses the navbar when the 'content' is clicked-->
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="text-center"><span class="styled_text">LES CHAISES </span><br><small>Quelques pistes, dont celle de l'auteur</small></h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 text-justify">
-                    <h4>« Les Chaises » de Ionesco (1951) interroge le sens de la vie, les mystères de la création. Cette pièce n’est pas seulement une œuvre majeure de l’histoire théâtrale du XXe siècle, mais représente une véritable synthèse théâtrale nouvelle, dans le sens de l’exploration de la notion de « farce tragique ».</h4>
+	<?php include "includes/head.php" ?>
+	<body onclick="collapseNavbar()">
+		<?php include "includes/navbar.php";?>
+		<div class="container" > <!-- collapses the navbar when the 'content' is clicked-->
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center"><span class="styled_text">Présentation Cie Rapsodie</span></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-justify">
+					<h3>L’association Rapsodie</h3>
+					<h4>
+						Rapsodie Production est une association à but non lucratif qui a pour objectif de produire et administrer des événements culturels en relation avec le canton de Neuchâtel. Rapsodie Production présente ici son onzième projet, encouragée dans ses activités par le vif intérêt et le succès croissants rencontrés auprès des médias régionaux et du public lors des précédents projets.
+					</h4>
 
-                    <h4>Le mécanisme théâtral part du comique, du burlesque, tout en semblant naître du comportement même des personnages, puis va en s’amplifiant et brusquement, par son outrance ou son dérèglement, devient tragique. Dans la pièce, nous assistons à ce double mouvement d’accélération et de ralentissement. L’accélération renvoie au « mécanisme ».</h4>
+					<h3>Membres du comité</h3>
+					<h4>
+						<ul class="list-group">
+							<li class="list-group-item">
+								<p>
+									Président d’honneur : <br><b>Jean-Jacques Aubert</b>, professeur ordinaire de philologie classique et histoire ancienne, Université de Neuchâtel (jean-jacques.aubert@unine.ch) 
+								</p>
+							</li>
+							<li class="list-group-item">
+								<p>
+									Président : <br><b>Dominique Rausis</b> (079 865 73 30) (d.rausis@bluewin.ch)
+								</p>
+							</li>
+							<li class="list-group-item">
+								<p>
+									Secrétaire : <br><b>Lucienne Amort-Muriset</b> (076 318 99 13)
+								</p>
+							</li>
+							<li class="list-group-item">
+								<p>
+									Caissière : <br><b>Céline Boesiger</b> (079 549 73 79) (celine.boesiger@bluewin.ch)
+								</p>
+							</li>
+							<li class="list-group-item">
+								<p>
+									Directeur artistique : <br><b>Steve Muriset </b> (032 724 46 37) (steve.muriset@bluewin.ch)
+								</p>
+							</li>
+						</ul>
 
-                    <h4>L’accélération, symbolisée par le ballet incessant des chaises que l’on apporte de plus en plus rapidement, leur accumulation, leur prolifération, reflète le cauchemar, le délire d’une pseudo civilisation et traduit de manière sensible la dépossession de l’homme, sa perte de contrôle sur le monde et sur lui-même.</h4>
+					</h4>
 
-                    <blockquote><h4>« Ce tourbillonnement des chaises exprime l’évanescence, la vacuité du monde qui est là, qui n’est pas là, qui ne sera plus là ».</h4> <footer>Ionesco</footer></blockquote>
+					<table>
+						<tbody>
+							<tr>
+								<td>
 
-                    <h4>Ionesco ambitionne de créer un théâtre symbolique, mythique, où « l’invisible » (l’endroit de la farce par excellence), devient « visible » (l’endroit du tragique inéluctable).</h4>
+									<strong>Année</strong>
 
-                    <blockquote><h4>« Je me préoccupe seulement de personnifier, d’incarner un sens comique et tragique de la réalité. Je désire souligner par la farce le sens tragique du texte, le comique étant une intuition de l’absurde, une autre face du tragique ».</h4> <footer>Ionesco</footer></blockquote>
+								</td>
+								<td>
 
-                    <h4>				Dans « Les Chaises », la navigation entre rêve et réalité, entre enfance et monde adulte, entre conscient et inconscient, est permanente. Comme il s’agit d’un théâtre intime et intérieur, la scène peut alors représenter la conscience, tandis que le hors scène, c’est-à-dire ce qu’on ne peut voir et qui est symbolisé par la mer, l’inconscient…témoigne des flux et reflux de l’âme, de même que son opacité, source de mystère et d’angoisse. Ce théâtre fantasmagorique et fantasmé se construit avec l’émerveillement et la virginité de l’enfance et l’intuition originelle du paradis perdu « C’était au bout, au bout du jardin…C’était un lieu, un temps exquis…C’est trop loin, je ne peux plus le rattraper…La branche du pommier est cassée… »
-                    </h4>
+									<strong>Titre</strong>
 
-                    <blockquote><h4>« Une de mes raisons d’écrire, c’est le besoin de trouver au-delà du quotidien, le mirage de l’enfance, la splendeur du premier jour ».</h4> <footer>Ionesco.</footer></blockquote>
+								</td>
+								<td>
 
-                    <h4>Chez Ionesco, le recours à la géométrie de l’espace est chose courante.</h4>
+									<strong>Lieux de représentation</strong>
 
-                    <h4>« Les Chaises » ne constituent pas un manquement à la règle. Ainsi, nous y trouvons la figure de la verticalité, représentée notamment par l’image du phare et l’objet théâtral de l’échelle, symbole du destin humain. Elle revêt un sens profondément métaphysique, celui de l’immobilité dans un monde en devenir, mais aussi celui d’une échappée qui conduit vers la liberté individuelle et la dignité de l’Homme.</h4>
+								</td>
+								<td>
 
-                    <h4>                    Les personnages, à force de volonté, luttent contre la pesanteur de l’âge et du temps, mais ils veulent transmettre malgré tout un message à l’humanité pour la sauver et pour barrer la route à la décrépitude et à la mort. Le message est le signe de leur survivance. Le phare devient un moyen pour tenter de conjurer la malédiction de l’âge. En vain, la pièce se termine par une chute dans l’eau des personnages, incapables de soutenir leur rôle jusqu’au bout.
-                    </h4>
-                    
-                    <blockquote><h4>« Comme Job sur son fumier, Brutus sous sa tente, Tête d’Or sur son rocher, le vieux couple délirant des Chaises est en passe de devenir le symbole théâtral de l’impuissance des hommes à comprendre leur histoire ».</h4> <footer>Bertrand Poirot-Delpech (Le Monde)</footer></blockquote>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-lg-8">
-                    <blockquote><h4>« Le thème de la pièce n’est pas le message, ni les échecs dans la vie, ni le désastre moral des vieux, mais bien les chaises, c’est-à-dire l’absence de personnes, l’absence de l’Empereur, l’absence de Dieu, l’absence de matière, l’irréalité du monde, le vide métaphysique. Le thème de la pièce c’est l’évanescence, le rien, un rien qui se fait entendre, se concrétise, comble de l’invraisemblance ».</h4></blockquote>
-                    <br>
-                </div>
-                <div class="col-xs-6 col-lg-1"></div>  
-                <div class="col-xs-6 col-lg-2">
-                    <figure>
-                        <img src="images/ionesco.png" class="img-responsive center-block">
-                        <figcaption  class="text-center" style="margin:10px;"><i>Eugène Ionesco</i></figcaption>
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-md-0 col-lg-1"></div>
-            </div>
-        </div>
-        <?php include "includes/footer.php" ?>
-    </body>
+									<strong>Soutiens</strong>
+
+								</td>
+								<td>
+
+									<strong>Nb.&nbsp;app.&nbsp;d’entrées</strong>
+
+								</td>
+								<td>
+
+									<strong>Budget&nbsp;app.</strong>
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2001
+
+								</td>
+								<td>
+
+									Du rififi chez les Noëls
+
+								</td>
+								<td>
+
+									Peseux, salle de spectacle
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Pour-cent Culturel Migros
+									<br/>
+									Fondation Neuchâteloise du 125e
+
+								</td>
+								<td>
+
+									1’200
+
+								</td>
+								<td>
+
+									40’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2003
+
+								</td>
+								<td>
+
+									Messe du Pardon
+
+								</td>
+								<td>
+
+									Le Landeron, église St-Maurice
+									<br/>
+									Winterthur, Zwinglikirche
+									<br/>
+									Porrentruy, église St-Pierre
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Loterie Romande Jura
+									<br/>
+									Fondation Suisa
+
+								</td>
+								<td>
+
+									800
+
+								</td>
+								<td>
+
+									50’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2004
+
+								</td>
+								<td>
+
+									Les trois fées loufoques
+
+								</td>
+								<td>
+
+									Neuchâtel, Théâtre du Passage
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Lions Club International
+									<br/>
+									Ville de Neuchâtel
+
+								</td>
+								<td>
+
+									1’400
+
+								</td>
+								<td>
+
+									65’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2005
+
+								</td>
+								<td>
+
+									Concerts Borel-Muriset
+
+								</td>
+								<td>
+
+									Neuchâtel, basilique Notre-Dame
+									<br/>
+									Fribourg, Eglise St-Michel
+									<br/>
+									Fluntern Grosse Kirche
+									<br/>
+									Fleurier, Eglise catholique
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Fondation Neuchâteloise du 125e
+									<br/>
+									Fondation Suisa
+									<br/>
+									Fondation Oertli
+									<br/>
+									Fondation Sophie und Karl Binding
+									<br/>
+									Fondation Ernst Göhner Zug
+									<br/>
+									Ville de Fribourg
+
+								</td>
+								<td>
+
+									1’000
+
+								</td>
+								<td>
+
+									89’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2008
+
+								</td>
+								<td>
+
+									Tistou les pouces verts
+
+								</td>
+								<td>
+
+									Bôle, Chézard, Coffrane,
+									<br/>
+									Couvet, salles de spectacle
+									<br/>
+									Le Locle, Temple
+									<br/>
+									Neuchâtel, Aula du Mail
+									<br/>
+									Cernier, Aula de la Fontenelle
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Canton de Neuchâtel
+									<br/>
+									Pro Juventute des districts de Boudry, Val-de-Travers,
+									Val-de-Ruz
+									<br/>
+									Pour-cent Culturel Migros
+									<br/>
+									Vaucher Manufacture
+
+								</td>
+								<td>
+
+									3’000
+
+								</td>
+								<td>
+
+									80’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2012
+
+								</td>
+								<td>
+
+									Le Défi de l’Ange
+
+								</td>
+								<td>
+
+									Neuchâtel, Collégiale
+									<br/>
+									Winterthur, Rosenkirche
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Fondation Suisa
+									<br/>
+									Fondation Oertli
+
+
+									Pour-cent Culturel Migros
+									<br/>
+									L’Express
+
+								</td>
+								<td>
+
+									600
+
+								</td>
+								<td>
+
+									32’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2012
+
+								</td>
+								<td>
+
+									Marcel et le Violoncelle
+
+								</td>
+								<td>
+
+									Chaux-de-Fonds, salle de musique
+									<br/>
+									Neuchâtel, Temple-du-Bas
+									<br/>
+									(salle de musique)
+									<br/>
+									Cernier, Aula de la Fontenelle
+
+								</td>
+								<td>
+
+									Loterie Romande Neuchâtel
+									<br/>
+									Fondation Suisa
+									<br/>
+									Fondation Ernst Göhner Zug
+
+
+									Ville de la Chaux-de-Fonds
+
+
+									Ville de Neuchâtel
+
+
+									L’Express
+
+								</td>
+								<td>
+
+									3’600
+
+								</td>
+								<td>
+
+									251’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									Dès 2012
+
+								</td>
+								<td>
+
+									Adam de la Dalle
+
+								</td>
+								<td>
+
+									Neuchâtel (2 créations), Le Landeron, Chaux-de-Fonds
+
+								</td>
+								<td>
+
+									Loterie Romande
+
+
+									Pro Juventute district de Boudry
+
+
+									Jeunesse et Musique
+
+								</td>
+								<td>
+
+									3’200
+
+								</td>
+								<td>
+
+									30’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2014
+
+								</td>
+								<td>
+
+									Le Homard à l’américaine
+
+								</td>
+								<td>
+
+									Couvet, salle de spectacle
+
+								</td>
+								<td>
+
+									Loterie Romande
+
+
+									Fondation Ernst Göhner
+
+
+									Commune de Val-de-Travers
+
+
+									Etat de Neuchâtel
+
+
+									Pourcent culturel Migros
+
+								</td>
+								<td>
+
+									1400
+
+								</td>
+								<td>
+
+									220’000
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									2015
+
+								</td>
+								<td>
+
+									La Véritable histoire du dahu
+
+								</td>
+								<td>
+
+									Couvet, salle de spectacle
+
+								</td>
+								<td>
+
+									Loterie Romande
+
+
+									Commune de Val-de-Travers
+
+
+									Etat de Neuchâtel
+
+
+									Pourcent culturel Migros
+
+								</td>
+								<td>
+
+									1200
+
+								</td>
+								<td>
+
+									230’000
+
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+		</div>
+		<?php include "includes/footer.php" ?>
+	</body>
 </html>
