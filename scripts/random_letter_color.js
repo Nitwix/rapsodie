@@ -23,15 +23,20 @@ $(document).ready(function(){
 
 function colorStr(str, prob){
 	var nStr = "";
-	var finished = false;
+	var specChars = false;
+	
+	//verifies if element contains special chars
 	for(var i in str){
-
-		//prevent html elements from being messed up
-		if(str[i] == "<" || finished){
-			finished = true;
+		if(str[i] == "<" || str[i] == "&" || specChars){
+			specChars = true;
 			continue;
 		}
-
+	}
+	
+	if(specChars) return str;
+	
+	for(var i in str){
+		
 		if(randInt(0,prob) == 0){ //randomly set the color
 			//choose between the two colors
 			if(randInt(0,2) == 0){

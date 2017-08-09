@@ -12,20 +12,38 @@
 			<div class="row">
 				<div class="col-xs-12 text-justify">
 					<ul class="nav nav-pills">
-						<li class="active"><a data-toggle="pill" href="#AG" id="Alice Grandjean">Alice Grandjean</a></li>
-						<li><a data-toggle="pill" href="#LS" id="">Menu 1</a></li>
-						<li><a data-toggle="pill" href="#MA" id="">Menu 2</a></li>
-						<li><a data-toggle="pill" href="#CWJ" id="">Menu 3</a></li>
-						<li><a data-toggle="pill" href="#CL" id="">Menu 3</a></li>
-						<li><a data-toggle="pill" href="#SM" id="">Menu 3</a></li>
+						<li><a data-toggle="pill" href="#AG" id="Alice Grandjean">Alice Grandjean</a></li>
+						<li><a data-toggle="pill" href="#LS" id="Léonard Schneider">Léonard Schneider</a></li>
+						<li><a data-toggle="pill" href="#MA" id="Mathieu Alexandre">Mathieu Alexandre</a></li>
+						<li><a data-toggle="pill" href="#CWJ" id="Carolyn Woods-Jardine">Carolyn Woods-Jardine</a></li>
+						<li><a data-toggle="pill" href="#CL" id="Cédric Liardet">Cédric Liardet</a></li>
+						<li><a data-toggle="pill" href="#SM" id="Steve Muriset">Steve Muriset</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="tab-content text-justify">
-				<?php include "bios/AG.php" ?>
-
+				
+				<?php 
+				
+				include 'bios/AG.php';
+				include 'bios/LS.php';
+				include 'bios/MA.php';
+				include 'bios/CWJ.php';
+				include 'bios/CL.php';
+				include 'bios/SM.php';
+					
+				?>
+				
 			</div>
+			
 		</div>
 		<?php include "includes/footer.php" ?>
+		
+		<script>
+			$(document).ready(function(){
+				$("#Léonard\ Schneider").trigger("click");
+			});
+		</script>
+		
 	</body>
 </html>

@@ -1,28 +1,24 @@
 <?php
-$content = "<div id='AG' class='tab-pane fade in active'>
+$content = "<div id='SM' class='tab-pane fade in active'>
 
 		<div class='row'>
 		
-			<div class='col-xs-12 col-md-9'>
+			<h2 class='styled_text'>Steve Muriset, compositeur et directeur artistique</h2>
+
+			<div class='col-xs-12 col-md-9 col-lg-10'>
 			
-				<h2>Alice Grandjean, soprano</h2>
-
-				<h4>
-				Née en 1993, Alice Grandjean est passionnée de musique dès son plus jeune âge. En 2006, elle commence le chant lyrique auprès d’Yves Senn et rejoint la compagnie de « L’avant-scène opéra »  participant ainsi à de nombreux spectacles. Elle est reçue au Conservatoire royal de Bruxelles, section chant, dans la classe de Marcel Vanaud et de Michèle Massina. Elle y obtient son Bachelor en juillet 2016. Elle a également travaillé avec Stuart Patterson et Ana-Camelia Stefanescu, et a suivi des masterclass auprès de Monika Lukacs et de Claudia Rüggeberg. Aujourd’hui, elle continue à se former auprès d’Yves Senn.
+				<h4 class='styled_text'>
+				41 ans, marié avec pour seule maitresse et progéniture, sa musique! – est un curieux de nature, un receveur – presque ! – universel. Cela se représente dans sa formation polyinstrumentiste (une dizaine si on admet le chant !), par le fait qu’il fut nommé professeur d’arrangement à l’Ecole de Jazz et de Musiques Actuelles de Lausanne avant que d’avoir obtenu son diplôme « classique » au conservatoire de Neuchâtel, ou par son éclectisme en tant que compositeur, son œuvre rassemblant, pêle-mêle, opérette, comédies musicales, chansons, messe, oratorios, poèmes symphoniques, musiques de film…
 				</h4>
 
-				<h4>
-				Depuis 2014, Alice Grandjean chante comme soliste en Suisse, en Belgique et en France. Elle a interprété entre autre les rôles de Papagena (Die Zauberflöte, Mozart), de Barbarina (Le Nozze di Figaro, Mozart), de Lucy (The Telephone, Menotti) ou encore de Belinda (Dido and Aeneas, Purcell), ainsi que de nombreux rôles d’opérette, tels que Zoé (La Cocarde de Mimi Pinson, Goublier fils), Louise (Les Mousquetaires au couvent, Varney) ou encore Cupidon (Orphée aux Enfers, Offenbach).
-				</h4>
-
-				<h4>
-				En 2015, elle cofonde la Compagnie d’opéra « Entre le Ziste et le Zeste », avec laquelle elle a déjà monté plusieurs spectacles. Par ailleurs, elle collabore également régulièrement avec différentes formations, telles que « Les Divertissements royaux », « L’avant-scène opéra », ainsi que l’ensemble baroque « Hortus Amoris ».
+				<h4 class='styled_text'>
+				C’est également un « jusqu’au-boutiste » car si la direction d’orchestre n’était pas une vocation en soi, il s’est perfectionné auprès d’Yves Cohen (lui-même un élève de Bernstein !) dans le sud de la France, plusieurs années durant afin de pratiquer cet art le plus dignement possible. Et c’est ainsi, que loin de ses aspirations premières, il a dirigé dans toute la Suisse, notamment les Berner et Bieler Symphoniker, ainsi que les orchestres des jeunes du conservatoire neuchâtelois, mais également – fidèle à son éclectisme – tout ce qui se dirige : fanfares, chœurs,  accordéons, big bands, etc.
 				</h4>
 				
 			</div>
 			
-			<div class='col-xs-6 col-md-3'>
-				<img class='img-responsive center-block' src='images/bios/AG.jpg'>
+			<div class='col-xs-6 col-md-3 col-lg-2'>
+				<img class='img-responsive center-block' src='images/bios/SM.jpg'>
 			</div>
 		
 		</div>
