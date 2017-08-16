@@ -24,14 +24,27 @@
                 </h4>
 
                 <h3 class="styled_text">Et du livret à l’opéra</h3>
-                <h4 class="styled_text">
-                    Et donc, après plus de 20 ans de maturation, après avoir compris qu’il y a des procédures dans ce bas monde (obtention et paiement des droits, dialogue avec l’héritière… comme une épreuve chevaleresque), je suis prêt, faisant face à l’attente de cet accouchement, de cette chose qui murit depuis longtemps, où les sons sont déjà perceptibles, à portée de doigts.<br>
-                    Et la fable restera intime : Trois acteurs – deux musiciens. Et des chaises.
-                    Deux musiciens pour qu’on puisse promener facilement. Deux musiciens pour servir la voix : L’accordéon comme témoin populaire universel. Le piano comme instrument romantique, pathétique, aux résonnances du rêve et de l’espace.
-                </h4>
+                
 
             </div>
         </div>
+        <div class="row">
+                <div class="col-xs-12 col-lg-8">
+                    <h4 class="styled_text">
+                        Et donc, après plus de 20 ans de maturation, après avoir compris qu’il y a des procédures dans ce bas monde (obtention et paiement des droits, dialogue avec l’héritière… comme une épreuve chevaleresque), je suis prêt, faisant face à l’attente de cet accouchement, de cette chose qui murit depuis longtemps, où les sons sont déjà perceptibles, à portée de doigts.<br>
+                        Et la fable restera intime : Trois acteurs – deux musiciens. Et des chaises.
+                        Deux musiciens pour qu’on puisse promener facilement. Deux musiciens pour servir la voix : L’accordéon comme témoin populaire universel. Le piano comme instrument romantique, pathétique, aux résonnances du rêve et de l’espace.
+                    </h4>
+                </div>
+                <div class="col-xs-6 col-lg-1"></div>  
+                <div class="col-xs-6 col-lg-2">
+                    <figure>
+                        <img src="images/bios/SM.jpg" class="img-responsive center-block">
+                        <figcaption  class="text-center" style="margin:10px;"><i>Steve Muriset</i></figcaption>
+                    </figure>
+                </div>
+                <div class="col-xs-6 col-md-0 col-lg-1"></div>
+            </div>
     </div>
     <?php include "includes/footer.php" ?>
 </body>
