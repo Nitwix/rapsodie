@@ -26,6 +26,7 @@ $navbar .= "<li class=".$page_active['index.php']."><a href='index.php' id='Accu
 			<li class=".$page_active['opera.php']."><a href='opera.php' id='LES CHAISES : Un opéra'>LES CHAISES : Un opéra</a></li>
 			<li class=".$page_active['biographies.php']."><a href='biographies.php' id='Biographies'>Biographies</a></li>
 			<li class=".$page_active['cie_rapsodie.php']."><a href='cie_rapsodie.php' id='Cie Rapsodie'>Cie Rapsodie</a></li>
+			<li><a href='https://www.sympaphonie.com/' target='_blank' id='Sympaphonie.com'>Sympaphonie.com</a></li>
 			</ul>";
 
 
