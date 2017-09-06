@@ -36,7 +36,12 @@
 				<br>
 
 				<h3 class="styled_text">Couvet</h3>
-				<h4 class="styled_text">18 et 19 novembre 2017, Chapelle aux Concerts, pas de réservation</h4>
+				<h4>
+					<span class="styled_text">18 et 19 novembre 2017, Chapelle aux Concerts</span><br>
+					Réservations au <b>079 365 19 29</b> du mardi au vendredi de 13h à 14h30 et de 17h à 18h30 <br>
+					ou à 
+					<a href="mailto:reservation@avant-scene.ch" id="reservation@avant-scene.ch">reservation@avant-scene.ch</a>
+				</h4>
 
 				<br>
 
