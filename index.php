@@ -40,7 +40,7 @@
 					<span class="styled_text">18 et 19 novembre 2017, Chapelle aux Concerts</span><br>
 					Réservations au <b>079 365 29 19</b> du mardi au vendredi de 13h à 14h30 et de 17h à 18h30 <br>
 					ou à 
-					<a href="mailto:reservation@avant-scene.ch" id="reservation@avant-scene.ch">reservation@avant-scene.ch</a>
+					<a href="mailto:reservations@avant-scene.ch" id="reservations@avant-scene.ch">reservations@avant-scene.ch</a>
 				</h4>
 
 				<br>
